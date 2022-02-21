@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+@font-face {
+    font-family: 'Dream';
+    src: url(fontes/DREAM\ GLORY.ttf) format('truetype');
+}
+:root{
+    --font0: 'Dream';
+    --font01: 'Open Sans';
+    --font02: 'Arial' serif;
+    --font03: 'EB Garamond'
+    --cor01: #BF0426;
+    --cor03:  #F2D7B6;
+    --cor04: #F20505;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+main{
+    margin: 40px;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    background-image: linear-gradient(to bottom, #ff9a9e 54%, #fad0c4 99%, #fad0c4 100%);
+    align-items: flex-end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+header > h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 4.9vw;
+    font-family: 'Dream';
+    text-shadow: 2px 2px 2px black;
+}
+.trigo{
+    display: flex;
+    align-self: center;
+
+
+}
+
+header > nav{
+    display: flex;
+    width: 250px;
+    margin-left: 70px;
+    gap: 40px;
+    font-size: 1.7vw; 
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(68, 44, 13);
+    font-weight: bold;
+}
+nav > a:hover{
+    text-decoration: line-through;
+    color: black;
+}
+.conttotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.divs{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.contp{
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 1.7vw;
+    margin: 0px;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.507);
+
+}
+.conth2{
+    font-family: var(--font0);
+    font-size: 2.5vw;
+}
+.img{
+    width: 40vw;
+    margin: 30px;
+    border-radius: 50px 50px;
+    border: 1px solid black;
+    background-attachment: fixed;
+}
+#teste{
+    width: 40vw;
+    height: 25vw;
+    margin: 30px;
+    border-radius: 50px 50px;
+    border: 1px solid black;
+    background-position: right top;
+    object-fit: contain;
+    background-image: url(bolo/Confeitaria.jpg);
+}
+footer{
+    padding-top: 1vw;
+    padding-bottom: 29px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #ff9a9e 54%, #fad0c4 99%, #fad0c4 100%);
+    padding-bottom: 2px;
+}
+address{
+    color: rgb(18, 18, 104);
+    flex: auto;
+    flex-direction: column;
+    margin-top: 30px;
+    align-self: center;
+}
+.text{
+    font-family: 'Eb Garamond';
+    font-weight: bold;
+    font-size: 2vw;
+    color: rgb(18, 18, 104);
+    flex-direction: column;
+
+}
+.contato{
+    font-size: 3vw;
+    flex-direction: column;
+}
+.logo{
+    width: 5vw;
+    padding-right: 22px;
+}
+body >h3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+.contatos{
+    position: fixed;
+    right: 0px;
+    bottom: 203px;
+    display: flex;
+    flex-direction: column;
+}
+.insta{
+    background-image: linear-gradient(#8249BD,#E84258 ,#FBBA62);
+    padding: 4px;
+    border-radius: 5px 0px 0px 5px;
+}
+.face{
+    background-color: #6C9FF5;
+    padding: 4px;
+    border-radius: 5px 0px 0px 5px;
+}
+.face:hover{
+    background-color: #1c4a99;
+}
+.insta:hover{
+    background-image: linear-gradient(#512185,#aa1f32 ,#b87d2c);
+}
+    
